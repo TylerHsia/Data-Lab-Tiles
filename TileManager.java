@@ -7,10 +7,10 @@ import java.util.*;
 import java.awt.*;
 
 public class TileManager {
-    private ArrayList<Tile> myTiles = new ArrayList<Tile>();
+    private ArrayList<Tile> myTiles; 
     // TileManager constructor 
     public TileManager() {
-        //
+        myTiles = new ArrayList<Tile>();
     }
 
     // adds a new tile to the list of tiles at the end 
